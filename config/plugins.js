@@ -9,24 +9,12 @@ module.exports = ({ env }) => ({
     },
   },
 
+  github: {
+    enabled: true,
+    token: process.env.GITHUB_TOKEN,
+    owner: process.env.GITHUB_OWNER,
+    repo: process.env.GITHUB_REPO,
+    event: process.env.GITHUB_EVENT,
+  },
+
 });
-
-// module.exports = ({ env }) => {
-//   // Adapt config based on environment
-//   const environment = env('NODE_ENV');
-
-//   // Use Cloudinary in production
-//   if (environment === 'production') {
-//     return {
-//       upload: {
-//         provider: 'cloudinary',
-//         providerOptions: {
-//           cloud_name: env('CLOUDINARY_NAME'),
-//           api_key: env('CLOUDINARY_KEY'),
-//           api_secret: env('CLOUDINARY_SECRET'),
-//         },
-//       },
-//     }
-//   }
-
-// };

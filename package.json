@@ -2,7 +2,7 @@
   "name": "ingeniovisual-cms",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "CMS Ingenio Visual",
   "scripts": {
     "dev": "strapi develop",
     "develop": "strapi develop",
@@ -12,23 +12,24 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@octokit/rest": "^18.3.5",
     "knex": "<0.20.0",
     "sqlite3": "5.0.0",
-    "strapi": "3.4.5",
-    "strapi-admin": "3.4.5",
-    "strapi-connector-bookshelf": "3.4.5",
-    "strapi-connector-mongoose": "^3.4.5",
-    "strapi-plugin-content-manager": "3.4.5",
-    "strapi-plugin-content-type-builder": "3.4.5",
-    "strapi-plugin-email": "3.4.5",
-    "strapi-plugin-graphql": "3.4.5",
-    "strapi-plugin-upload": "3.4.5",
-    "strapi-plugin-users-permissions": "3.4.5",
-    "strapi-provider-upload-cloudinary": "^3.4.5",
-    "strapi-utils": "3.4.5"
+    "strapi": "3.5.3",
+    "strapi-admin": "3.5.3",
+    "strapi-connector-bookshelf": "3.5.3",
+    "strapi-connector-mongoose": "^3.5.3",
+    "strapi-plugin-content-manager": "3.5.3",
+    "strapi-plugin-content-type-builder": "3.5.3",
+    "strapi-plugin-email": "3.5.3",
+    "strapi-plugin-graphql": "3.5.3",
+    "strapi-plugin-upload": "3.5.3",
+    "strapi-plugin-users-permissions": "3.5.3",
+    "strapi-provider-upload-cloudinary": "^3.5.3",
+    "strapi-utils": "3.5.3"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Claudio Posado"
   },
   "strapi": {
     "uuid": "df73add8-7578-456b-9f8f-f4e116f8b788"

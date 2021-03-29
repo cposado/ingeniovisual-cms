@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_data",
+  "info": {
+    "name": "siteData"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "titleSite": {
+      "type": "string"
+    },
+    "descriptionSite": {
+      "type": "richtext"
+    },
+    "lastChangesPublished": {
+      "type": "boolean",
+      "default": false,
+      "private": true
+    },
+    "lastChange": {
+      "type": "string"
+    }
+  }
+}

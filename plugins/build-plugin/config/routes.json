@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/",
+      "handler": "build-plugin.index",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/status",
+      "handler": "build-plugin.status",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

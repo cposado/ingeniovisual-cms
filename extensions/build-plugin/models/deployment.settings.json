@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deployments",
+  "info": {
+    "name": "deployment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false,
+    "timestamps": true,
+    "increments": true,
+    "comment": ""
+  },
+  "attributes": {
+    "lastChangesPublished": {
+      "type": "boolean",
+      "default": false
+    },
+    "lastChange": {
+      "type": "string"
+    }
+  }
+}
